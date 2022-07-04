@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="naWUcioOu!i4)79P4vQ." x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="mouse click" id="C@{8jqIoE=00bBxZg6uV"></block></statement></block><block type="device_button_event" id="@/yq|+QHch!Ib~IQp?#q" x="405" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="mouse right click" id="(DI[3`VNKY3i7Z1s%Kun"></block></statement></block><block type="bluetooth_on_connected" id="+_,{@hY*-1OesqaeX[H9" x="73" y="279"><statement name="HANDLER"><block type="device_show_leds" id="Al,}jFsk)(yK^2DUwKNx"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_play_note" id="8A#uucg[N!hh1DDBs6r#"><value name="note"><shadow type="device_note" id="*5!2Gz/id(##%I$(,HF["><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="ACkBw{.o+=B:`DLtUOET"><field name="fraction">BeatFraction.Quarter</field></shadow></value><next><block type="device_play_note" id="c~r(A`OOA5xQcxe7K;we"><value name="note"><shadow type="device_note" id="];{LbL9e:^)cc?V{FvYy"><field name="name">523</field></shadow></value><value name="duration"><shadow type="device_beat" id="]x4TD#WRo[iBl/PeE)/="><field name="fraction">BeatFraction.Whole</field></shadow></value></block></next></block></next></block></statement></block><block type="bluetooth_on_disconnected" id="@P6aMK4/;yems{?_Zv`4" x="500" y="274"><statement name="HANDLER"><block type="device_show_leds" id="xf7I1ssj}Vp9Y{?`VHh1"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_play_note" id="Yaj/8?#w[)09{DQ9g%U}"><value name="note"><shadow type="device_note" id="U2!;t*:RElO6*s{*Wg[w"><field name="name">277</field></shadow></value><value name="duration"><shadow type="device_beat" id="8iFMx*dl]=nM]$~qL~O?"><field name="fraction">BeatFraction.Quarter</field></shadow></value><next><block type="device_play_note" id="`oLS:IjP);nR_6e2ovd}"><value name="note"><shadow type="device_note" id="~b5F=@#{HEJl{!Uw59YJ"><field name="name">208</field></shadow></value><value name="duration"><shadow type="device_beat" id="(fCVc3EyHIgMcslLZ51}"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></next></block></next></block></statement></block></xml>
